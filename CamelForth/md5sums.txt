@@ -1,0 +1,3 @@
+eb4cde993d1424b1f5a577e0be7390e6  camelforth_10_SEP_2018_1737z.tar
+97daf69a4a9c0c4247144376f30df26a  camelforth_10_SEP_2018_1737z.tar.gz
+6959064 Sep 10 17:34 camelforth_10_SEP_2018_1737z.tar.gz
