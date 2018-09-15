@@ -1,0 +1,2 @@
+8838d04b7e3374e54e1e060a100faf86  feather_m0_usb_cdc-exp.tar
+b7c4e3af6517c6daee90aa11425d5a10  feather_m0_usb_cdc-exp.tar.gz
