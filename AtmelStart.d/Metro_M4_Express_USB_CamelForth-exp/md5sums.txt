@@ -1,0 +1,2 @@
+7cd2e9db7c478eadf97aae00aba52a2e  metro_m4_usb_cdc-NRC.tar
+0dc02c2a03ae100c9819f1d266e6415b  metro_m4_usb_cdc-NRC.tar.gz
