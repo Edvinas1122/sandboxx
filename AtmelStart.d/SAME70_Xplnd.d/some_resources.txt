@@ -1,0 +1,39 @@
+question asked:
+how to use external ram with atmel mcu
+where the mcu will use will use the PORTs
+as busses to perform a read/write cycle
+
+link:
+  https://scienceprog.com/adding-external-memory-to-atmega128/
+
+Adding external memory to Atmega128 | Do It Easy With ScienceProg
+Atmega128 is equipped with internal 4Kbytes of SRAM memory. Is it enough? Well, it depends on what project it’s going to hold. If your project must deal with loads of data or run larger RTOS code, you will run out of RAM pretty soon. Atmega128 microcontroller has an externa...
+
+
+The Atmel ATmega MCU family can assign two different wait-state values to the external-memory space.
+
+from:
+
+https://www.digikey.com/en/articles/techzone/2015/aug/use-external-memory-interfaces-wisely-when-expanding-mcu-capabilities
+
+https://github.com/wa1tnr/sandboxx/tree/atmel-a/AtmelStart.d/SAME70_Xplnd.d
+
+not much on https://start.atmel.com/ to choose from.
+
+same70b/include/pio/same70q19b.h  for example.
+
+grep for EBI in the vendor's tree somewhere like that.
+
+chipname/include/pio being the identifying parts of this path
+
+This is first thing popped up when asking Google 'what is EBI SDRAM':
+
+https://www.cypress.com/file/273296/download
+
+https://en.wikipedia.org/wiki/External_Bus_Interface
+
+http://asf.atmel.com/docs/latest/xmega.drivers.ebi.example.sram.stk600-rc100x.atxmega128a1/html/index.html
+
+That last one looks promising.
+
+31 Jan 2020 22:21 UTC
