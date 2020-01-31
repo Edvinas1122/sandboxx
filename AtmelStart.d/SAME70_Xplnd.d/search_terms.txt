@@ -1,0 +1,18 @@
+
+In the arduino-1.8.10 directory (off $HOME):
+
+ $ pwd | cut -b13-99; ag "define SRE " | cat
+arduino-1.8.10
+hardware/tools/avr/avr/include/avr/iom32u6.h:597:#define SRE 7
+hardware/tools/avr/avr/include/avr/iom128a.h:502:#define SRE     7
+hardware/tools/avr/avr/include/avr/iousbxx6_7.h:548:#define SRE     7
+hardware/tools/avr/avr/include/avr/iomxx0_1.h:627:#define SRE     7
+hardware/tools/avr/avr/include/avr/iom64a.h:502:#define SRE     7
+
+taken from:
+
+https://www.avrfreaks.net/forum/how-find-devices-can-use-external-ram
+
+Should give a good hint as to if an AVR can
+support external memory or not.
+
