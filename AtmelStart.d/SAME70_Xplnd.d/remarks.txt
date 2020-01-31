@@ -1,0 +1,9 @@
+
+ start.atmel.com had 11 memory related applications.
+
+ This one seemed most relevant to SDRAM.
+
+ For SAM E70 Xplained
+
+ Downloaded: 31 January 2020.
+
