@@ -11,7 +11,7 @@
 
 // https://en.wikipedia.org/wiki/Icosahedron
 
-const char icosahdrn_face_message[][28] { // exact count
+const char icosahdrn_face_message[][26] { // exact count
     "It is certain            ",
     "Without a doubt          ",
     "You may rely on it       ",
